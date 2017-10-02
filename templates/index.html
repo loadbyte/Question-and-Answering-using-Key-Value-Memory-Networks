@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="../static/myform.css" rel="stylesheet">
+<script src="../static/script.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+	 <div class="col-sm-6">
+    
+      <u><h2 class="text-center">Hashed Memory Nework for Question Answering</h2></u>
+   
+
+      <form role="form">
+        <div class="form-group">
+          <h4><label for="story">Story</label></h4>
+          <textarea class="form-control" id="story" rows="6" readonly></textarea>
+        </div>
+          <div class="form-group">
+                    <h4>
+                        <label for="question">Question?</label>
+                       
+                    </h4>
+                    <input class="form-control" id="question" autofocus
+                           autocomplete="off" spellcheck="false">
+                </div>
+        <div class="form-group">
+                    <h4><label for="answer">Answer</label></h4>
+                    <textarea class="form-control" id="answer" rows="3" readonly></textarea>
+                </div>
+    <div class="login-or">
+        <hr class="hr-or">
+        <span class="span-or">or</span>
+      </div>
+        
+          <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+           <button  class="btn btn-lg btn-success btn-block" id="get_answer" type="submit">Predict answer</button>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+           <button  class="btn btn-lg btn-primary btn-block" id="get_story" type="submit">Get new story</button>
+        </div>
+      </div>
+      </form>
+    
+  
+    </div>
+  </div>
+</div>
+</body>
+</html>
